@@ -72,6 +72,7 @@ There are lots of other useful things that the view can do. All the public APIs 
 ## Developed by
 
 * Ali Hafizji <ali.hafizji@gmail.com> 
+
 [Follow me on twitter](https://twitter.com/Ali_hafizji).
 
 ## Inspired from
