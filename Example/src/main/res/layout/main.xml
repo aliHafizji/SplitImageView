@@ -1,0 +1,9 @@
+<com.alihafizji.splitimageview.SplitImageView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/masked_image_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:backgroundSrc="@drawable/image_a"
+    app:foregroundSrc="@drawable/image_b"
+    app:splitPercent="75" />

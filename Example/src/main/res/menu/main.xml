@@ -1,0 +1,83 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity" >
+    <item android:id="@+id/fit_xy"
+        android:title="@string/fitxy"
+        android:orderInCategory="100"
+        android:showAsAction="never" />
+
+    <item android:id="@+id/fit_start"
+        android:title="@string/fitstart"
+        android:orderInCategory="100"
+        android:showAsAction="never" />
+
+    <item android:id="@+id/fit_center"
+        android:title="@string/fitcenter"
+        android:orderInCategory="100"
+        android:showAsAction="never" />
+
+    <item android:id="@+id/fit_end"
+        android:title="@string/fitend"
+        android:orderInCategory="100"
+        android:showAsAction="never" />
+
+    <item android:id="@+id/center"
+        android:title="@string/center"
+        android:orderInCategory="100"
+        android:showAsAction="never" />
+
+    <item android:id="@+id/center_crop"
+        android:title="@string/center_crop"
+        android:orderInCategory="100"
+        android:showAsAction="never" />
+
+    <item android:id="@+id/center_inside"
+        android:title="@string/center_inside"
+        android:orderInCategory="100"
+        android:showAsAction="never" />
+
+    <item android:id="@+id/add_color_filter"
+        android:title="@string/add_color_filter"
+        android:orderInCategory="100"
+        android:showAsAction="never" />
+
+    <item android:id="@+id/remove_color_filter"
+        android:title="@string/remove_color_filter"
+        android:orderInCategory="100"
+        android:showAsAction="never" />
+
+    <item android:id="@+id/apply_random_percent"
+        android:title="@string/apply_random_percent"
+        android:orderInCategory="100"
+        android:showAsAction="never" />
+
+    <item android:id="@+id/enable_snap_mask_to_bounds"
+        android:title="@string/enable_snap_mask_to_bounds"
+        android:orderInCategory="100"
+        android:showAsAction="never" />
+
+    <item android:id="@+id/disable_snap_mask_to_bounds"
+        android:title="@string/disable_snap_mask_to_bounds"
+        android:orderInCategory="100"
+        android:showAsAction="never" />
+
+    <item android:id="@+id/enable_touch_unveil"
+        android:title="@string/enable_touch_unveil"
+        android:orderInCategory="100"
+        android:showAsAction="never" />
+
+    <item android:id="@+id/disable_touch_unveil"
+        android:title="@string/disable_touch_unveil"
+        android:orderInCategory="100"
+        android:showAsAction="never" />
+
+    <item android:id="@+id/enable_automatic_animation"
+        android:title="@string/enable_automatic_animation"
+        android:orderInCategory="100"
+        android:showAsAction="never" />
+
+    <item android:id="@+id/disable_automatic_animation"
+        android:title="@string/disable_automatic_animation"
+        android:orderInCategory="100"
+        android:showAsAction="never" />
+</menu>

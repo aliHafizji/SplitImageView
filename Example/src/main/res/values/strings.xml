@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SplitImageView</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="fitxy">Fit XY</string>
+    <string name="fitstart">Fit Start</string>
+    <string name="fitcenter">Fit Center</string>
+    <string name="fitend">Fit End</string>
+    <string name="center">Center</string>
+    <string name="center_crop">Center crop</string>
+    <string name="center_inside">Center inside</string>
+    <string name="add_color_filter">Add Color Filter</string>
+    <string name="remove_color_filter">Remove Color Filter</string>
+    <string name="apply_random_percent">Random mask percent</string>
+    <string name="enable_snap_mask_to_bounds">Enable snap to bounds</string>
+    <string name="disable_snap_mask_to_bounds">Disable snap to bounds</string>
+    <string name="enable_touch_unveil">Enable touch unveil</string>
+    <string name="disable_touch_unveil">Disable touch unveil</string>
+    <string name="enable_automatic_animation">Enable automatic animation</string>
+    <string name="disable_automatic_animation">Disable automatic animation</string>
+</resources>
