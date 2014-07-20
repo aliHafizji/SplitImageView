@@ -5,15 +5,15 @@ SplitImageView
 
 ## Introduction
 
-Ever wondered how the split image view is implemented in apps like kaliedoscope? This is the android implementation of the split image view.
+Ever wondered how the split image view is implemented in apps like kaliedoscope? Well today's your lucky day coz you found one that does just that. This is the android implementation of such a view.
 
-This view can be used to show a comparison between images or you could use it for its touch to unveil feature.
+This view can be used to show a comparison between images or you could simply use it for its touch to unveil feature.
 
 ## Setup
 
 ### Method 1: Referencing library project
 
-CreditCardEditText is created as a standalone Android-Library project. You can easily include this project by referencing the library/ folder in your project using either eclipse or Android studio
+SplitImageView is created as a standalone Android-Library project. You can easily include this project by referencing the library/ folder in your project using either eclipse or Android studio
 
 ### Method 2: Adding a remote referece
 
@@ -41,7 +41,7 @@ dependencies {
 
 ## Usage
 
-This view can be intialized using both code as well as xml. All the attributed needed for setup are defined in attrs.xml.
+This view can be intialized using both code as well as xml. All the attributes needed for setup are defined in attrs.xml.
 
 To use it via xml, first add the namespace to the top element of the layout.
 
@@ -61,11 +61,11 @@ Add the view to the layout and set the respective height and width value to suit
     app:splitPercent="75" />
 ```
 
-The foregroundSrc and backgroundSrc attributes represent the foreground and background images. The splitPercent attribute shows how much of the backgroundSrc will be unveiled. In the above example only 25% of the background image will be shown.
+The `foregroundSrc` and `backgroundSrc` attributes represent the foreground and background images. The `splitPercent` attribute shows how much of the `backgroundSrc` will be unveiled. In the above example only 25% of the background image will be shown.
 
-SplitImageView support all the ScaleTypes that are supported by ImageView. You can simply use the public method setScaleType to change this variable. The scaleType is applied to both the foreground and background image.
+SplitImageView support all the ScaleTypes that are supported by ImageView. You can simply use the public method `setScaleType(scaleType)` to change this variable. The scaleType is applied to both the foreground and background image.
 
-Automatic animation: This is a nifty little feature present in SplitImageView. You can turn it on by calling the public method `setEnableAutomaticAnimation(true)`. This will put the unveil animation on a loop, the above preview describes this well. The animation duration for this can also be changed using the public method `setAutomaticAnimationDuration(duration)`.
+Automatic animation: This is a nifty little feature present in SplitImageView. You can turn it on by calling the public method `setEnableAutomaticAnimation(true)`. This will put the unveil animation on a loop, the preview in the first section shows this feature in action. The animation duration for this can also be changed using the public method `setAutomaticAnimationDuration(duration)`.
 
 There are lots of other useful things that the view can do. All the public APIs are well documented and should be easy to use.
 
@@ -77,4 +77,4 @@ There are lots of other useful things that the view can do. All the public APIs 
 
 ## Inspired from
 
-This view has been inspired from Krzysztof Zablocki's implementation of this for iOS. Here is a [link](https://github.com/krzysztofzablocki/KZImageSplitView) to his repository.
+This view has been inspired from Krzysztof Zablocki's implementation of the SplitImageView for iOS. Here is a [link](https://github.com/krzysztofzablocki/KZImageSplitView) to his repository.
