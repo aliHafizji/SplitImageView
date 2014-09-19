@@ -75,6 +75,8 @@ There are lots of other useful things that the view can do. All the public APIs 
 
 [Follow me on twitter](https://twitter.com/Ali_hafizji).
 
+[![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-SplitImageView-blue.svg?style=flat)](https://android-arsenal.com/details/1/733)
+
 ## Inspired from
 
 This view has been inspired from Krzysztof Zablocki's implementation of the SplitImageView for iOS. Here is a [link](https://github.com/krzysztofzablocki/KZImageSplitView) to his repository.
